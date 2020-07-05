@@ -1,0 +1,59 @@
+2020-04-21T01:16:10+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 10489856 bytes) in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/functions.php on line 3890
+
+2020-04-21T08:27:08+00:00 CRITICAL Cannot declare class Menu_Icons, because the name is already in use in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/plugins/menu-icons/menu-icons.php on line 28
+
+2020-04-21T08:27:12+00:00 CRITICAL Cannot declare class Menu_Icons, because the name is already in use in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/plugins/menu-icons/menu-icons.php on line 28
+
+2020-04-21T08:27:13+00:00 CRITICAL Cannot declare class Menu_Icons, because the name is already in use in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/plugins/menu-icons/menu-icons.php on line 28
+
+2020-04-21T08:27:15+00:00 CRITICAL Cannot declare class Menu_Icons, because the name is already in use in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/plugins/menu-icons/menu-icons.php on line 28
+
+2020-04-21T08:27:29+00:00 CRITICAL Cannot declare class Menu_Icons, because the name is already in use in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/plugins/menu-icons/menu-icons.php on line 28
+
+2020-04-21T08:27:33+00:00 CRITICAL Cannot declare class Menu_Icons, because the name is already in use in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/plugins/menu-icons/menu-icons.php on line 28
+
+2020-04-21T08:27:33+00:00 CRITICAL Cannot declare class Menu_Icons, because the name is already in use in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/plugins/menu-icons/menu-icons.php on line 28
+
+2020-04-21T08:27:35+00:00 CRITICAL Cannot declare class Menu_Icons, because the name is already in use in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/plugins/menu-icons/menu-icons.php on line 28
+
+2020-04-21T08:28:00+00:00 CRITICAL Cannot declare class Menu_Icons, because the name is already in use in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/plugins/menu-icons/menu-icons.php on line 28
+
+2020-04-21T08:28:03+00:00 CRITICAL Cannot declare class Menu_Icons, because the name is already in use in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/plugins/menu-icons/menu-icons.php on line 28
+
+2020-04-21T08:28:04+00:00 CRITICAL Cannot declare class Menu_Icons, because the name is already in use in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/plugins/menu-icons/menu-icons.php on line 28
+
+2020-04-21T08:28:06+00:00 CRITICAL Cannot declare class Menu_Icons, because the name is already in use in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/plugins/menu-icons/menu-icons.php on line 28
+
+2020-04-21T10:51:40+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/plugins/ot-flatsome-vertical-menu/libs/menu-icons/includes/picker.php:201
+Stack trace:
+#0 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/class-wp-hook.php(287): Menu_Icons_Picker::_save(42, 329, Array)
+#1 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/nav-menu.php(589): do_action('wp_update_nav_m...', 42, 329, Array)
+#4 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/nav-menu.php(1114): wp_update_nav_menu_item(42, 329, Array)
+#5 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/class-wp-hook.php(287): _wp_auto_add_pages_to_menu('publish', 'auto-draft', Object in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/plugins/ot-flatsome-vertical-menu/libs/menu-icons/includes/picker.php on line 201
+
+2020-04-21T10:58:56+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/plugins/ot-flatsome-vertical-menu/libs/menu-icons/includes/picker.php:201
+Stack trace:
+#0 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/class-wp-hook.php(287): Menu_Icons_Picker::_save(42, 343, Array)
+#1 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/nav-menu.php(589): do_action('wp_update_nav_m...', 42, 343, Array)
+#4 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/nav-menu.php(1114): wp_update_nav_menu_item(42, 343, Array)
+#5 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/class-wp-hook.php(287): _wp_auto_add_pages_to_menu('publish', 'auto-draft', Object in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/plugins/ot-flatsome-vertical-menu/libs/menu-icons/includes/picker.php on line 201
+
+2020-04-21T11:08:35+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/plugins/ot-flatsome-vertical-menu/libs/menu-icons/includes/picker.php:201
+Stack trace:
+#0 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/class-wp-hook.php(287): Menu_Icons_Picker::_save(42, 348, Array)
+#1 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/nav-menu.php(589): do_action('wp_update_nav_m...', 42, 348, Array)
+#4 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/nav-menu.php(1114): wp_update_nav_menu_item(42, 348, Array)
+#5 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/class-wp-hook.php(287): _wp_auto_add_pages_to_menu('publish', 'auto-draft', Object in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/plugins/ot-flatsome-vertical-menu/libs/menu-icons/includes/picker.php on line 201
+
+2020-04-21T11:30:26+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 8110280 bytes) in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php on line 265
+
+2020-04-21T14:20:37+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 4198400 bytes) in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/functions.php on line 3877
+
+2020-04-21T14:37:50+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 2097152 bytes) in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/functions.php on line 3877
+

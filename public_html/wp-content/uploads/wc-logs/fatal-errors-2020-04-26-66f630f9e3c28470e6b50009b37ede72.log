@@ -1,0 +1,28 @@
+2020-04-26T13:03:24+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(): open_basedir restriction in effect. File(/var/cache/nginx/wordpress) is not within the allowed path(s): (/home/nhom1tmdt/:/tmp:/var/tmp:/opt/alt/php72/usr/share/pear/:/dev/urandom:/usr/local/lib/php/:/usr/local/php72/lib/php/) in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/mu-plugins/kusanagi-core/modules/cache-clear.php:93
+Stack trace:
+#0 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/mu-plugins/kusanagi-core/modules/cache-clear.php(93): RecursiveDirectoryIterator->__construct('/var/cache/ngin...', 4128)
+#1 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/mu-plugins/kusanagi-core/modules/cache-clear.php(62): KUSANAGI_Cache_Clear->clear_fcache('/danh-muc/danh-...')
+#2 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/class-wp-hook.php(287): KUSANAGI_Cache_Clear->exe_clear_cache('')
+#3 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/cla in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/mu-plugins/kusanagi-core/modules/cache-clear.php on line 93
+
+2020-04-26T13:03:25+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(): open_basedir restriction in effect. File(/var/cache/nginx/wordpress) is not within the allowed path(s): (/home/nhom1tmdt/:/tmp:/var/tmp:/opt/alt/php72/usr/share/pear/:/dev/urandom:/usr/local/lib/php/:/usr/local/php72/lib/php/) in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/mu-plugins/kusanagi-core/modules/cache-clear.php:93
+Stack trace:
+#0 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/mu-plugins/kusanagi-core/modules/cache-clear.php(93): RecursiveDirectoryIterator->__construct('/var/cache/ngin...', 4128)
+#1 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/mu-plugins/kusanagi-core/modules/cache-clear.php(62): KUSANAGI_Cache_Clear->clear_fcache('/danh-muc/danh-...')
+#2 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/class-wp-hook.php(287): KUSANAGI_Cache_Clear->exe_clear_cache('')
+#3 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/cla in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/mu-plugins/kusanagi-core/modules/cache-clear.php on line 93
+
+2020-04-26T16:47:13+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(): open_basedir restriction in effect. File(/var/cache/nginx/wordpress) is not within the allowed path(s): (/home/nhom1tmdt/:/tmp:/var/tmp:/opt/alt/php72/usr/share/pear/:/dev/urandom:/usr/local/lib/php/:/usr/local/php72/lib/php/) in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/mu-plugins/kusanagi-core/modules/cache-clear.php:93
+Stack trace:
+#0 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/mu-plugins/kusanagi-core/modules/cache-clear.php(93): RecursiveDirectoryIterator->__construct('/var/cache/ngin...', 4128)
+#1 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/mu-plugins/kusanagi-core/modules/cache-clear.php(62): KUSANAGI_Cache_Clear->clear_fcache('/')
+#2 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/class-wp-hook.php(287): KUSANAGI_Cache_Clear->exe_clear_cache('')
+#3 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/class-wp-hook.php(31 in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/mu-plugins/kusanagi-core/modules/cache-clear.php on line 93
+
+2020-04-26T16:47:13+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(): open_basedir restriction in effect. File(/var/cache/nginx/wordpress) is not within the allowed path(s): (/home/nhom1tmdt/:/tmp:/var/tmp:/opt/alt/php72/usr/share/pear/:/dev/urandom:/usr/local/lib/php/:/usr/local/php72/lib/php/) in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/mu-plugins/kusanagi-core/modules/cache-clear.php:93
+Stack trace:
+#0 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/mu-plugins/kusanagi-core/modules/cache-clear.php(93): RecursiveDirectoryIterator->__construct('/var/cache/ngin...', 4128)
+#1 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/mu-plugins/kusanagi-core/modules/cache-clear.php(62): KUSANAGI_Cache_Clear->clear_fcache('/')
+#2 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/class-wp-hook.php(287): KUSANAGI_Cache_Clear->exe_clear_cache('')
+#3 /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-includes/class-wp-hook.php(31 in /home/nhom1tmdt/domains/shopacg.bmic.edu.vn/public_html/wp-content/mu-plugins/kusanagi-core/modules/cache-clear.php on line 93
+
